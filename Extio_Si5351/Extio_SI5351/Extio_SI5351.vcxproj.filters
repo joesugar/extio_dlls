@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Extio">
+      <UniqueIdentifier>{65b8575d-9c95-4896-b3b2-eff03de7de61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Si5351">
+      <UniqueIdentifier>{953f147d-b77f-4812-8141-826f5cad58b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SourceCode\extio_si5351.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Si5351.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SourceCode\CloseHW.cpp">
+      <Filter>Source Files\Extio</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\StartHW.cpp">
+      <Filter>Source Files\Extio</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\GetStatus.cpp">
+      <Filter>Source Files\Extio</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\InitHW.cpp">
+      <Filter>Source Files\Extio</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\OpenHW.cpp">
+      <Filter>Source Files\Extio</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\SetCallback.cpp">
+      <Filter>Source Files\Extio</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\SetHWLO.cpp">
+      <Filter>Source Files\Extio</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\StopHW.cpp">
+      <Filter>Source Files\Extio</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Si5351.cpp">
+      <Filter>Source Files\Si5351</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SourceCode\extio_si5351.def">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Extio_Si5351", "Extio_SI5351\Extio_SI5351.vcxproj", "{4A33D216-1190-44F8-A781-2FCFDB59812F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A33D216-1190-44F8-A781-2FCFDB59812F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4A33D216-1190-44F8-A781-2FCFDB59812F}.Debug|Win32.Build.0 = Debug|Win32
+		{4A33D216-1190-44F8-A781-2FCFDB59812F}.Release|Win32.ActiveCfg = Release|Win32
+		{4A33D216-1190-44F8-A781-2FCFDB59812F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
