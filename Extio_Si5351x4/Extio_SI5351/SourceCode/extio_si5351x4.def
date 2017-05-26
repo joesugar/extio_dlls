@@ -1,0 +1,11 @@
+LIBRARY     extio_si5351.DLL 
+ 
+EXPORTS                    
+	CloseHW      = _CloseHW@0 
+	GetStatus    = _GetStatus@0
+	InitHW       = _InitHW@12
+	OpenHW       = _OpenHW@0
+	SetCallback  = _SetCallback@4
+	SetHWLO      = _SetHWLO@4
+	StartHW      = _StartHW@4
+	StopHW		 = _StopHW@0
